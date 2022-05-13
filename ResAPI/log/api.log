@@ -1,0 +1,439 @@
+"2022-05-13 14:38:10 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 14:38:10 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 14:38:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-05-13 14:38:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-05-13 14:38:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 14:38:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 14:38:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 14:38:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 14:38:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 855 ms
+""2022-05-13 14:38:11 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 743ee087-4340-427c-9faa-7bd7adf9138f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+""2022-05-13 14:38:12 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42ce1036, org.springframework.security.web.context.SecurityContextPersistenceFilter@63009e01, org.springframework.security.web.header.HeaderWriterFilter@5a69bb20, org.springframework.security.web.csrf.CsrfFilter@7a2363da, org.springframework.security.web.authentication.logout.LogoutFilter@f5ee0f6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@916a83e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@642b9dae, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@66ee4df4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@34ef7072, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30f344bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7844c6d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@294dcdbb, org.springframework.security.web.session.SessionManagementFilter@19dc76f, org.springframework.security.web.access.ExceptionTranslationFilter@79bf069b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18632fba]
+""2022-05-13 14:38:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 14:38:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 14:38:12 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 1.682 seconds (JVM running for 2.202)
+""2022-05-13 14:38:18 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 14:38:36 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 14:38:36 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 14:38:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 14:38:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 14:38:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 14:38:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 14:38:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 228 ms
+""2022-05-13 14:38:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 14:38:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 14:38:37 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.339 seconds (JVM running for 27.102)
+""2022-05-13 14:38:37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SecurityFilterAutoConfiguration#securityFilterChainRegistration:
+      Did not match:
+         - @ConditionalOnBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans named springSecurityFilterChain (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) did not find any beans of type org.springframework.security.config.annotation.ObjectPostProcessor (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+""2022-05-13 14:38:39 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 14:38:40 [http-nio-8080-exec-2] INFO  c.e.demo.controller.Rescontroller - addResponse [addId=1] Reponse [responseCode=0, responseMessage=Added !, responseId=0, responseTime=2022-05-13T14:38:40.039457700]
+""2022-05-13 14:38:42 [http-nio-8080-exec-3] INFO  c.e.demo.controller.Rescontroller - GetAllManager OK
+""2022-05-13 14:38:45 [http-nio-8080-exec-4] ERROR c.e.demo.controller.Rescontroller - deleteResponse [deleteId=-1] Reponse [responseCode=3, responseMessage=Delete failed !, responseId=3, responseTime=2022-05-13T14:38:45.608368]
+""2022-05-13 14:52:06 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 14:52:06 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 14:52:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 14:52:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 14:52:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 14:52:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 14:52:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 178 ms
+""2022-05-13 14:52:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 14:52:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 14:52:06 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.296 seconds (JVM running for 836.566)
+""2022-05-13 14:52:06 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 14:53:26 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 14:53:26 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 14:53:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 14:53:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 14:53:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 14:53:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 14:53:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 152 ms
+""2022-05-13 14:53:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 14:53:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 14:53:26 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.229 seconds (JVM running for 916.498)
+""2022-05-13 14:53:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 14:56:53 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 14:56:53 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 14:56:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 14:56:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 14:56:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 14:56:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 14:56:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 160 ms
+""2022-05-13 14:56:53 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 14:56:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 14:56:53 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.241 seconds (JVM running for 1123.423)
+""2022-05-13 14:56:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 14:57:09 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 14:57:09 [http-nio-8080-exec-1] ERROR c.e.demo.controller.Rescontroller - deleteResponse [deleteId=-1] Reponse [responseCode=3, responseMessage=Delete failed !, responseId=3, responseTime=2022-05-13T14:57:09.108225700]
+""2022-05-13 14:57:14 [http-nio-8080-exec-4] INFO  c.e.demo.controller.Rescontroller - addResponse [addId=1] Reponse [responseCode=0, responseMessage=Added !, responseId=0, responseTime=2022-05-13T14:57:14.905942200]
+""2022-05-13 15:03:50 [HoangNVBot Telegram Connection] INFO  o.t.t.u.DefaultBotSession - Read timed out
+"java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:306) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:na]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:na]
+"2022-05-13 15:05:24 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:05:24 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:05:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:05:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:05:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:05:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:05:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 164 ms
+""2022-05-13 15:05:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:05:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:05:24 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.271 seconds (JVM running for 1634.522)
+""2022-05-13 15:05:24 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:07:25 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:07:25 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:07:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:07:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:07:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:07:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:07:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 140 ms
+""2022-05-13 15:07:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:07:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:07:26 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.212 seconds (JVM running for 1756.16)
+""2022-05-13 15:07:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:08:21 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:08:21 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:08:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:08:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:08:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:08:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:08:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 157 ms
+""2022-05-13 15:08:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:08:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:08:21 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.245 seconds (JVM running for 1811.763)
+""2022-05-13 15:08:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:08:46 [HoangNVBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Connection reset
+"java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:320) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:na]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:na]
+"2022-05-13 15:09:18 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:09:18 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:09:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:09:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:09:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:09:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:09:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 147 ms
+""2022-05-13 15:09:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:09:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:09:18 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.224 seconds (JVM running for 1868.327)
+""2022-05-13 15:09:18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:09:59 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:09:59 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:09:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:09:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:09:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:09:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:09:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 135 ms
+""2022-05-13 15:09:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:09:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:09:59 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.211 seconds (JVM running for 1909.74)
+""2022-05-13 15:09:59 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:11:34 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:11:34 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:11:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:11:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:11:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:11:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:11:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 152 ms
+""2022-05-13 15:11:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:11:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:11:34 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.249 seconds (JVM running for 2004.909)
+""2022-05-13 15:11:34 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:12:08 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 15292 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:12:08 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:12:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:12:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:12:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:12:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:12:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 146 ms
+""2022-05-13 15:12:09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:12:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:12:09 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.224 seconds (JVM running for 2039.135)
+""2022-05-13 15:12:09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:12:13 [HoangNVBot Telegram Connection] INFO  o.t.t.u.DefaultBotSession - Read timed out
+"java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:306) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:na]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:na]
+"2022-05-13 15:12:26 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-05-13 15:13:18 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 16140 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:13:18 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:13:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-05-13 15:13:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-05-13 15:13:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:13:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:13:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:13:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:13:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 804 ms
+""2022-05-13 15:13:19 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:13:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:13:19 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 1.495 seconds (JVM running for 2.028)
+""2022-05-13 15:13:35 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 15:13:35 [http-nio-8080-exec-2] INFO  c.e.demo.controller.Rescontroller - addResponse [addId=1] Reponse [responseCode=0, responseMessage=Added !, responseId=0, responseTime=2022-05-13T15:13:35.155669300]
+""2022-05-13 15:15:25 [HoangNVBot Telegram Connection] INFO  o.t.t.u.DefaultBotSession - Read timed out
+"java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:306)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+"2022-05-13 15:15:36 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 16140 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:15:36 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:15:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:15:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:15:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:15:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:15:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 180 ms
+""2022-05-13 15:15:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:15:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:15:36 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.275 seconds (JVM running for 139.197)
+""2022-05-13 15:15:36 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:16:21 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 16140 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:16:21 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:16:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:16:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:16:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:16:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:16:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 156 ms
+""2022-05-13 15:16:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:16:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:16:21 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.245 seconds (JVM running for 183.626)
+""2022-05-13 15:16:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:33:50 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 15:33:50 [http-nio-8080-exec-2] INFO  c.e.demo.controller.Rescontroller - addResponse [addId=1] Reponse [responseCode=0, responseMessage=Added !, responseId=0, responseTime=2022-05-13T15:33:50.055521700]
+""2022-05-13 15:34:09 [http-nio-8080-exec-3] INFO  c.e.demo.controller.Rescontroller - Send Message Success !
+""2022-05-13 15:41:36 [HoangNVBot Telegram Connection] INFO  o.t.t.u.DefaultBotSession - Read timed out
+"java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:306) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:na]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:na]
+"2022-05-13 15:42:24 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-05-13 15:42:31 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 12308 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:42:31 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:42:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-05-13 15:42:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-05-13 15:42:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:42:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:42:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:42:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:42:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 821 ms
+""2022-05-13 15:42:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:42:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:42:32 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 1.519 seconds (JVM running for 2.044)
+""2022-05-13 15:42:42 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 12308 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:42:42 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:42:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:42:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:42:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:42:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:42:42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 176 ms
+""2022-05-13 15:42:42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:42:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:42:42 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.281 seconds (JVM running for 11.899)
+""2022-05-13 15:42:42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:42:51 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 15:43:07 [http-nio-8080-exec-2] INFO  c.e.demo.controller.Rescontroller - Send Message Success !
+""2022-05-13 15:46:07 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 12308 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:46:07 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:46:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:46:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:46:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:46:07 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:46:07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 149 ms
+""2022-05-13 15:46:07 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:46:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:46:07 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.236 seconds (JVM running for 216.838)
+""2022-05-13 15:46:07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:46:57 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 12308 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:46:57 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:46:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:46:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:46:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:46:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:46:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 141 ms
+""2022-05-13 15:46:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:46:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:46:57 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.219 seconds (JVM running for 267.084)
+""2022-05-13 15:46:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-05-13 15:47:07 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-05-13 15:47:22 [http-nio-8080-exec-2] INFO  c.e.demo.controller.Rescontroller - Send Message Success !
+""2022-05-13 15:47:58 [restartedMain] INFO  com.example.demo.ResApiApplication - Starting ResApiApplication using Java 18.0.1 on DESKTOP-0AK3KKR with PID 12308 (C:\Users\Administrator\eclipse-workspace\ResAPI\target\classes started by Administrator in C:\Users\Administrator\eclipse-workspace\ResAPI)
+""2022-05-13 15:47:58 [restartedMain] INFO  com.example.demo.ResApiApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-05-13 15:47:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-05-13 15:47:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-05-13 15:47:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""2022-05-13 15:47:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-05-13 15:47:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 139 ms
+""2022-05-13 15:47:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-05-13 15:47:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-05-13 15:47:58 [restartedMain] INFO  com.example.demo.ResApiApplication - Started ResApiApplication in 0.213 seconds (JVM running for 327.885)
+""2022-05-13 15:47:58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+"
